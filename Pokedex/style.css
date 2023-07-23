@@ -1,0 +1,92 @@
+.containerP {
+  width: 730px;
+  height: 530px;
+  background-color: red;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+
+.rojo,
+.amarillo,
+.verde {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin: 8px 2px;
+  text-align: center;
+}
+
+.rojo {
+  background-color: red;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.amarillo {
+  background-color: yellow;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.verde {
+  background-color: greenyellow;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.pantalla {
+  width: 640px;
+  height: 480px;
+  border: 20px solid black;
+  border-radius: 10px;
+  background-color: white;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.verPoke {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0px;
+  background-color: white;
+}
+
+p {
+  margin: 0px 0px;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+.search {
+  border-radius: 5px;
+  width: 300px;
+  height: 20px;
+  font-family: "Courier New", Courier, monospace;
+  border: 2px solid black;
+}
+
+button {
+  border-radius: 5px;
+  background-color: rgb(239, 109, 109);
+  margin: 0px 8px;
+  font-family: "Courier New", Courier, monospace;
+  height: 25px;
+  border: 2px solid black;
+}
+
+.imagen {
+  width: 320px;
+  height: 190px;
+  border: 5px;
+}
+
+.carrusel {
+  padding: 5px;
+}
